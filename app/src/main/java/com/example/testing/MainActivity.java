@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
     SaveValuesHelper saveValuesHelper;
 
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);

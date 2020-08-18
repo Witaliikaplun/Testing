@@ -1,7 +1,5 @@
 package com.example.testing;
-
 public class Values {
-
     private String firstOperand = "";
     private String secondOperand = "";
 

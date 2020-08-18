@@ -16,12 +16,12 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="@dimen/margtop">
 
             <EditText
                 android:id="@+id/et1"
-                android:layout_width="100dp"
-                android:layout_height="45dp"/>
+                android:layout_width="@dimen/width100dp"
+                android:layout_height="@dimen/hight45dp"/>
 
             <TextView
                 android:id="@+id/tv1"
@@ -33,23 +33,23 @@
 
             <EditText
                 android:id="@+id/et2"
-                android:layout_width="100dp"
-                android:layout_height="45dp"/>
+                android:layout_width="@dimen/width100dp"
+                android:layout_height="@dimen/hight45dp"/>
         </LinearLayout>
 
     <TextView
-        android:layout_width="150dp"
-        android:layout_height="45dp"
+        android:layout_width="@dimen/width150dp"
+        android:layout_height="@dimen/hight45dp"
         android:id="@+id/tv2"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="@dimen/margtop"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="@dimen/margtop">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -57,16 +57,16 @@
             android:orientation="vertical">
             <Button
                 android:id="@+id/btn_add"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="@dimen/width_but"
+                android:layout_height="@dimen/height_but"
                 android:text="+"/>
 
             <Button
                 android:id="@+id/btn_sub"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="@dimen/width_but"
+                android:layout_height="@dimen/height_but"
                 android:text="-"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="@dimen/margtop"/>
         </LinearLayout>
 
         <LinearLayout
@@ -76,16 +76,16 @@
             android:layout_marginLeft="10dp">
             <Button
                 android:id="@+id/btn_mul"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="@dimen/width_but"
+                android:layout_height="@dimen/height_but"
                 android:text="*"/>
 
             <Button
                 android:id="@+id/btn_div"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="@dimen/width_but"
+                android:layout_height="@dimen/height_but"
                 android:text="/"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="@dimen/margtop"/>
         </LinearLayout>
 
     </LinearLayout>
