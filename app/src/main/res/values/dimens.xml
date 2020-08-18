@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width100dp">100dp</dimen>
+    <dimen name="width150dp">150dp</dimen>
+    <dimen name="hight45dp">45dp</dimen>
+    <dimen name="width_but">80dp</dimen>
+    <dimen name="height_but">80dp</dimen>
+    <dimen name="margtop">10dp</dimen>
+</resources>
